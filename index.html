@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Seeds Of Hopes</title>
+     <link rel="icon" type="image"href="/img/fav.ico">
+     <link rel="stylesheet" href="body.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+     <!-- nav bar  -->
+
+     <nav class="navbar background">
+          <ul class="nav-list">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#Home">About Us</a></li>
+               <li><a href="Contact/contact.html">Contact us</a></li>
+               <li id="pay"><a href="#">Donate</a>
+                    <div class="submenu">
+                         <ul>
+                              <li id="pay2"><a href="#payment">Donate Money</a></li>
+                              <li><a href="food.html">Donate Food</a></li>
+                         </ul>
+                    </div>    
+               </li>
+               <li><a href="#">Join Us</a>
+                    <div class="submenu">
+                         <ul>
+                              <li id="join"><a href="sign up/log.html">As NGO</a></li>
+                              <li><a href="sign up/volunteer.html">As Volunteer</a></li>
+                         </ul>
+                    </div>    
+               </li>
+          </ul>
+
+          <!-- home  -->
+
+         </nav>
+         <section id="home" class="background firstSection" > 
+          <div class="box-main">
+               <div class="firsthalf">
+                   <p class="text">Meals Provided!</p>
+                   <p id="number">15,678</p>
+             </div>
+             </div>
+          
+          </div>
+         </section>
+
+          <!-- about us -->
+
+         <section id="Home" class="about" >
+          <div class="container">
+               <div class="box">
+                    <div id="bx1" class="box1">
+                         <p class="letter">Health Care</p>
+                         <p id="count">4,087</p>
+                    </div>
+
+                    <div class="box1">
+                         <p class="letter">Education Assistance</p>
+                         <p id="count">8,980</p>
+                    </div>
+                    
+               </div>
+          </div>
+         </section>
+
+                                      <!-- payment  -->
+
+         <section id="payment" class="payment">
+          <div class="payment-box">
+               <h2>Payment Details</h2>
+               <form action="">
+                 <div class="form-group">
+                   <label for="name">Name on Card</label>
+                   <input type="text" id="name" name="name" placeholder="Shubham Jankar" required>
+                 </div>
+                 <div class="form-group">
+                    <label for="Pan">Pan Number</label>
+                    <input type="text" id="PAN" name="Pan" placeholder="CLPKM6672K" required>
+                  </div>
+
+                 <div class="form-group">
+                   <label for="card-number">Card Number</label>
+                   <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="expiration-date">Expiration Date</label>
+                   <input type="text" id="expiration-date" name="expiration-date" placeholder="MM / YY" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="cvv">CVV</label>
+                   <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="amount">Amount</label>
+                   <select class="form-select" aria-label="Default select example">
+                     <option selected>$1</option>
+                     <option value="1">$10</option>
+                     <option value="2">$25</option>
+                     <option value="3">$50</option>
+                   </select>
+                 </div>
+                 <div class="form-group">
+                      <input type="checkbox" id="ann" name="ann" unchecked>
+                      <label for="ann">Donate Anonymously</label>
+                  </div>
+                 <button type="button" class="btn btn-success" id="liveToastBtn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" >PAY</button>
+                 <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                     <div class="toast-header">
+                       <img src="..." class="rounded me-2" alt="...">
+                       <strong class="me-auto">Razorpay</strong>
+                       <small>30 Sec ago..</small>
+                       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                     </div>
+                     <div class="toast-body">
+                       Payment Success! Thanks for your Contribution.
+                     </div>
+                   </div>
+                 </div>
+               </form>
+             </div>
+           
+             
+         </section>
+
+
+                              <!-- sponsers  -->
+
+     <section  class="partner">
+          <div class="container1">
+               <h3 id="part">Our Partners</h3>
+               <div class="box2">
+                    <div class="logo">
+                         <a href="https://fullmoonfoundation.org.in"target="_blank">
+                         <img src="img/moon.svg" id="n1" alt="ngo">
+                               </a>
+                    </div>
+
+                    <div class="logo">
+                         <a href="https://bhumi.ngo/" target="_blank">
+                         <img src="img/bhumi.jpg" id="n2" alt="ngo2">
+                         </a>
+                    </div>
+
+                    <div class="logo">
+                         <a href="https://www.annakshetra.org/" target="_blank">
+                         <img src="img/food.jpg" id="n3" alt="ngo3">
+                         </a>
+                    </div>
+
+                    <div class="logo">
+                         <a href="https://www.pragti.org/" target="_blank">
+                         <img src="img/pews.jpg" id="n4" alt="ngo4">
+                         </a>
+                    </div>
+
+                    <div class="logo">
+                         <a href="" target="_blank">
+                         <img src="img/health.jpg" id="n5" alt="ngo5">
+                         </a>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+                               <!-- footer  -->
+     <footer>
+          <div class="container my-4">
+            <div class="social-icons">
+              <a href="#" class="icon"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+              &copy; 2023 Seeds of Hope
+            </div>
+          </div>
+        </footer>
+        <script src="index.js"></script>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+               crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+*{
+     margin: 0;
+     padding: 0;
+
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     padding: 0rem 0rem;
+     justify-content: left;
+     position: sticky;
+     top: 0;
+     padding-left: 6.1rem;
+     cursor: pointer;
+     background-color: #f8f8f8;
+
+}   
+.nav-list{
+     width: 60%;
+     display: flex;
+     align-items: center;
+
+}
+
+.nav-list li{
+     list-style: none;
+     padding: 13px 35px;
+}
+
+.nav-list li a{
+
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+    
+}
+ .nav-list li a:hover{
+    color:#DDDDDD;
+   
+}
+
+.rightnav{
+     
+     width: 50%;
+     text-align: right;
+     padding: 0 23px;
+}
+
+.submenu{
+     display: none;
+     border-radius: 7px;
+     width: 200px;
+     height: 200px;
+}
+#pay2{
+     font-size: 10px;
+}
+
+
+.navbar ul li:hover .submenu{
+     display: block;
+     position: absolute ;
+     background-color: #4A4A48;
+     margin-top: 15px;
+     margin-left: -15px;
+}
+.navbar ul li:hover .submenu ul{
+     display: block;
+     margin: 10px;
+}
+.navbar ul li:hover .submenu ul li{
+     width: 150px;
+     padding: 10px;
+     border-bottom: 1px dotted #fff;
+     background: transparent;
+     border-radius: 0;
+     text-align: left;
+}
+
+.navbar ul li:hover .submenu ul li a:hover{
+     color: #B2B2B2;
+}
+
+/* Background section */
+.background{
+     
+     background:rgba(0, 0, 0, 0.6) url("img/img.webp");
+     background-size: cover;
+     /* background-repeat: no-repeat; */
+     background-blend-mode: darken;
+     /* opacity: 90%; */
+}
+.box-main {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+     color: white;
+     max-width: 50%;
+}
+.firsthalf{
+     padding: auto;
+     justify-content: center;
+     padding-top: 14rem;
+     font-size: 40px;
+}
+.text{
+     white-space: nowrap;
+     overflow: hidden;
+     text-align: center;
+     animation: typing 3s steps(20,end);
+}
+@keyframes typing{
+     0%{
+          width: 0;
+     }
+     50%{
+          width: 100%;
+          
+     }
+}
+#number{
+     justify-content: center;
+     padding-top: 40px;
+     padding-left: 100px;
+}
+.firstSection{
+      height: 90vh;
+}
+
+.about{
+     background-color:#EFEFEF;
+     height: 50vh;
+}
+.box{
+     margin: auto;
+     padding-top: 100px;
+}
+
+.box1{
+     display: inline-block;
+     width: 49%;
+     text-align: center;
+     padding-top: 50px;
+     font-size: 40px;
+     color: black;
+}
+#bx1{
+     border-right: 1px dashed black;
+}
+
+/* Payment  */
+
+.payment{
+     padding-top: 70px;
+     height: 105vh;
+}
+.payment-box {
+     padding-top: 100px;
+     background-color: #f7f7f7;
+     border-radius: 5px;
+     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+     padding: 20px;
+     width: 30%;
+     margin: auto auto;
+   }
+   
+   .form-group {
+     margin-bottom: 20px;
+   }
+   
+   label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+   }
+   
+   input[type="text"] {
+     width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+   }
+   
+   button[type="submit"] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+   }
+   
+   button[type="submit"]:hover {
+     background-color: #3e8e41;
+   }
+   #liveToastBtn{
+     margin: 0 0 0 70px;
+    width: 60%;
+   }
+   /* partners */
+img{
+        width: 110px;
+        height: 110px;
+        border-radius: 50px;
+   }
+   h3{
+     text-align: center;
+   }
+   #part{
+     font-size: 2.78rem;
+   }
+.box2{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+.partner{
+     background-color:#F6F6F6 ;
+}
+
+/* footer  */
+footer {
+     background-color: #222;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+   }
+   
+   .container {
+     max-width: 1200px;
+     margin: 0 auto;
+   }
+   
+   .social-icons {
+     display: flex;
+     justify-content: center;
+   }
+   
+   .icon {
+     display: inline-block;
+     background-color: #fff;
+     border-radius: 50%;
+     margin: 0 10px;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     color: #222;
+   }
+   
+   .icon i {
+     font-size: 20px;
+   }
+   
+
+   .copyright {
+     margin-top: 20px;
+     font-size: 14px;
+   }

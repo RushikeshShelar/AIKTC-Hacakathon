@@ -1,2 +1,1 @@
-# AIKTC-Hacakathon
-Zero Hunger: Good Health and Well Being
+# Zero-Hunger
