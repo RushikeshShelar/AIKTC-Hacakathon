@@ -21,6 +21,9 @@ The project is planned to be further developed to include the following:
 - Support Contact
 - Responsive design
 
+##Suggestions
+
+Contact [Rushikesh](mailto:rushikeshshelar.cs@gmail.com) if you have any suggestion about the improvement of the Project.
 
 ## Contact
 
